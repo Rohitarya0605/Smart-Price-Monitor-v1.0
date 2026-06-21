@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Product - Smart Price Monitor</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <h1>Smart Price Monitor</h1>
+
+        <div class="nav-links">
+            <a href="/">Dashboard</a>
+            <a href="/logout">Logout</a>
+        </div>
+    </nav>
+
+    <!-- EDIT FORM -->
+    <div class="edit-container">
+        <div class="edit-card">
+            <h2>Edit Product</h2>
+
+            <form action="/update-product/{{ product.id }}" method="post">
+
+                <label>Product Name</label>
+                <input
+                    type="text"
+                    name="product_name"
+                    value="{{ product.product_name }}"
+                    required
+                >
+
+                <label>Your Price</label>
+                <input
+                    type="number"
+                    step="0.01"
+                    name="your_price"
+                    value="{{ product.your_price }}"
+                    required
+                >
+
+                <label>Amazon Price</label>
+                <input
+                    type="number"
+                    step="0.01"
+                    name="amazon_price"
+                    value="{{ product.amazon_price }}"
+                    required
+                >
+
+                <label>Flipkart Price</label>
+                <input
+                    type="number"
+                    step="0.01"
+                    name="flipkart_price"
+                    value="{{ product.flipkart_price }}"
+                    required
+                >
+
+                <button type="submit">Update Product</button>
+            </form>
+
+            <br>
+
+            <a href="/" class="back-link">
+                <button class="edit-btn">Back to Dashboard</button>
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>

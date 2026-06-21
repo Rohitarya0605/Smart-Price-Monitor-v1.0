@@ -1,0 +1,32 @@
+# Create project
+mkdir smart-price-monitor
+cd smart-price-monitor
+
+# Virtual env
+python -m venv venv
+.\venv\Scripts\Activate.ps1
+
+# Fix PowerShell policy if needed
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned
+
+# Install dependencies
+pip install fastapi uvicorn
+pip install sqlalchemy
+pip install jinja2
+pip install python-multipart
+pip install python-jose
+pip install passlib
+pip install bcrypt==4.0.1
+
+# Run app
+uvicorn main:app --reload
+
+# Generate requirements
+pip freeze > requirements.txt
+
+# GitHub
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git push -u origin main
