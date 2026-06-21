@@ -119,7 +119,10 @@ Smart-Price-Monitor-v1.0/
 
 
 User → FastAPI → JWT Auth → SQLAlchemy ORM → SQLite DB
+
+                         
                          ↓
+                   
                     Dashboard + Charts
 
 ## 📊 Project Stats
