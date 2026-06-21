@@ -87,7 +87,7 @@ Includes:
 # 📂 Project Structure
 
 ```bash
-smart-price-monitor/
+Smart-Price-Monitor-v1.0/
 │
 ├── main.py
 ├── auth.py
@@ -103,8 +103,10 @@ smart-price-monitor/
 │   ├── login.html
 │   └── signup.html
 │
-└── static/
-    └── style.css
+├── static/
+│   └── style.css
+│
+└── _pycache_/
 ```
 
 ---
@@ -114,8 +116,8 @@ smart-price-monitor/
 ## 1. Clone Repository
 
 ```bash
-git clone https://github.com/Rohitarya0605/Smart-price-monitor.git
-cd smart-price-monitor
+git clone https://github.com/Rohitarya0605/Smart-Price-Monitor-v1.0
+cd Smart-Price-Monitor-v1.0
 ```
 
 ---
