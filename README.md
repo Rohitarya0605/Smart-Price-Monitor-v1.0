@@ -1,3 +1,9 @@
+![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python)
+![FastAPI](https://img.shields.io/badge/FastAPI-Backend-green?logo=fastapi)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-ORM-red)
+![JWT](https://img.shields.io/badge/Auth-JWT-orange)
+![SQLite](https://img.shields.io/badge/Database-SQLite-blue?logo=sqlite)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 # 📈 Smart Price Monitor
 
 A modern **FastAPI-based competitor price monitoring platform** that helps businesses track product prices, compare competitor pricing, visualize price trends, and manage products through an interactive dashboard.
@@ -110,6 +116,31 @@ Smart-Price-Monitor-v1.0/
 ```
 
 ---
+
+
+User → FastAPI → JWT Auth → SQLAlchemy ORM → SQLite DB
+                         ↓
+                    Dashboard + Charts
+
+## 📊 Project Stats
+
+- Backend Routes: 10+
+- Database Tables: 3
+- Authentication: JWT
+- Features Implemented: 15+
+- Development Time: 20+ hours
+
+
+| Feature | Status |
+|---------|--------|
+| JWT Authentication | ✅ |
+| Product CRUD | ✅ |
+| Price Analytics | ✅ |
+| Chart Visualization | ✅ |
+| Responsive UI | ✅ |
+| Price Alerts | 🚧 |
+
+
 
 # ⚙️ Installation Guide
 
