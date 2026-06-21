@@ -114,16 +114,14 @@ Smart-Price-Monitor-v1.0/
 │
 └── _pycache_/
 ```
-
 ---
+```bash
 
-
-User → FastAPI → JWT Auth → SQLAlchemy ORM → SQLite DB
-
-                         
-                         ↓
-                   
+User → FastAPI → JWT Auth → SQLAlchemy ORM → SQLite DB                         
+                        ↓
                     Dashboard + Charts
+```
+---
 
 ## 📊 Project Stats
 
