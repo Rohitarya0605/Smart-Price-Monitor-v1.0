@@ -4,6 +4,17 @@
 ![JWT](https://img.shields.io/badge/Auth-JWT-orange)
 ![SQLite](https://img.shields.io/badge/Database-SQLite-blue?logo=sqlite)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
+
+<p align="center">
+  <img src="screenshots/banner.png" width="100%">
+</p>
+
+<h1 align="center">📈 Smart Price Monitor</h1>
+
+<p align="center">
+Track competitor pricing • Analyze trends • Stay ahead
+</p>
+
 # 📈 Smart Price Monitor
 
 A modern **FastAPI-based competitor price monitoring platform** that helps businesses track product prices, compare competitor pricing, visualize price trends, and manage products through an interactive dashboard.
